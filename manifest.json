@@ -1,0 +1,14 @@
+{
+  "name": "Heretaunag College Student Handbook",
+  "short_name": "HC Handbook",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/images/favicon.ico",
+      "sizes": "192x192",
+      "type": "image/x-icon",
+      "purpose": "any"
+    }
+  ]
+}
