@@ -7,7 +7,7 @@
 		<meta name="keywords" content="Heretaunga College">
 		<meta name="description" content="Helpful handbook for new students and their whanau">
 		<meta name="author" content="Dheeren Chowdary Nouthalapati">
-		<meta name="copyright" content="Copyright 2025 Dheeren Chowdary Nouthalapati">
+		<meta name="copyright" content="Copyright 2026 Dheeren Chowdary Nouthalapati">
 
 		<!-- This is the code for the style/css sheet link-->
 		<link rel="stylesheet" type="text/css" href="css/css.css">
@@ -16,17 +16,16 @@
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico"> 
 	</head>
 
-	<body>
-		<header>
-			<img src="images/logotitle.png" height="100%" alt="Heretaunga College Logo">
-			<img class="headimg" src="images/headv2.png"  alt="Heretaunga College Front">
-		</header>
+<body>
 
-		<div class="navbar">
-	  		<a class="active" href="index.html">Home</a>
-	  		<div class="dropdown">
-  				<button class="dropbtn">School Identity</button>	
+    <header class="index">
+		<div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <div class="overlay-content">
+		  	<div class="dropdown">
+  				<button class="dropbtn">Spirit & Identity</button>	
 	  			<div class="dropdown-content">
+	  				<a href="history.html">History</a>
 	          		<a href="houses.html">Houses</a>
 	          		<a href="wings.html">Wings</a>
 	          		<a href="missionvision.html">Mission and Vision</a>
@@ -35,7 +34,7 @@
 	  			</div>
   			</div>
   			<div class="dropdown">
-          		<button class="dropbtn">School Rules & Policies</button> 
+          		<button class="dropbtn">Rules & Policies</button> 
 	        	<div class="dropdown-content">
 					<a href="bounds.html">Out of Bounds</a>
 					<a href="uniform.html">Uniform</a>
@@ -46,15 +45,19 @@
 	  			</div> 
   			</div>
   			<div class="dropdown">
-  				<button class="dropbtn">Student & Staff Support</button>	
+  				<button class="dropbtn">Life & Resources</button>	
 	  			<div class="dropdown-content">
-	          		<a href="schoolstaff.html">School Staff</a>
-	          		<a href="keystaff.html">Key Staff</a>
-	          		<a href="studentsupport.html">Student Support</a>
+	          		<a href="lunch.html">Lunch Time Activities</a>
+	          		<a href="sportsclubs.html">Sports and Clubs</a>
+	          		<a href="bring.html">What to Bring</a>
+	  				<a href="wifi.html">WiFi</a>
+	          		<a href="googleclass.html">Google Classroom</a>
+	          		<a href="byod.html">BYOD</a>
+					<a href="phonepolicy.html">Phone/Earpod Policy</a>	          		
 	  			</div>
-  		    </div>
+  			</div>
   		    <div class="dropdown">
-  				<button class="dropbtn">School Facilities & Infrastructure</button>	
+  				<button class="dropbtn">Facilities</button>	
 	  			<div class="dropdown-content">
 	          		<a href="library.html">Library</a>
 	          		<a href="bustimes.html">Bus Timetable</a>
@@ -64,24 +67,15 @@
 	  			</div>
   			</div>
   			<div class="dropdown">
-  				<button class="dropbtn">Student Life & Activities</button>	
+  				<button class="dropbtn">Staff & Support</button>	
 	  			<div class="dropdown-content">
-	          		<a href="lunch.html">Lunch Time Activities</a>
-	          		<a href="sportsclubs.html">Sports and Clubs</a>
-	          		<a href="bring.html">What to Bring</a>
+	          		<a href="schoolstaff.html">School Staff</a>
+	          		<a href="keystaff.html">Key Staff</a>
+	          		<a href="studentsupport.html">Student Support</a>
 	  			</div>
-  			</div>
+  		    </div>
   			<div class="dropdown">
-  				<button class="dropbtn">Technology</button>	
-	  			<div class="dropdown-content">
-	          		<a href="wifi.html">WiFi</a>
-	          		<a href="googleclass.html">Google Classroom</a>
-	          		<a href="byod.html">BYOD</a>
-					<a href="phonepolicy.html">Phone/Earpod Policy</a>	          		
-	  			</div>
-  			</div>
-  			<div class="dropdown">
-  				<button class="dropbtn">School Communication</button>	
+  				<button class="dropbtn">Communication</button>	
 	  			<div class="dropdown-content">
 	          		<a href="timetable.html">Timetable</a>
 	          		<a href="bells.html">Bells</a>
@@ -90,97 +84,219 @@
 	          		<a href="socials.html">School Socials</a>
 	  			</div>
   			</div>
+		  </div>
 		</div>
+		<script>
+		function openNav() {
+		  document.getElementById("myNav").style.height = "100%";
+		}
 
-    	<div class="slideshow-container">
-			<div class="slides">
-				<img class="slideimg" src="images/staffview.jpg" style="width:50vw" alt="Photo from Inside of Staffroom Looking out at Quad">
+		function closeNav() {
+		  document.getElementById("myNav").style.height = "0%";
+		}
+		</script>
+        <button style="cursor:pointer" onclick="openNav()" class="menu-btn" id="index">
+            ☰
+        </button>
+    </header>
+
+    <main>
+    	
+        <img src="images/logo.png" alt="Heretaunga College Crest" class="crest">
+
+        <h1>Heretaunga College</h1>
+        <h2>Student Handbook</h2>
+        <br><br>
+        <section class="menu-grid">
+
+			<div class="menu-dropdown">
+			    <button class="menu-card gold dropdown-toggle">
+			        <div class="icon-circle">
+			        	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="42" height="42">
+						    <path d="M3 10.5L12 3l9 7.5"/>
+						    <path d="M5 9.5V21h14V9.5"/>
+						    <path d="M9 21v-6h6v6"/>
+						</svg>
+					</div>
+			        <span>Spirit & Identity</span>
+			    </button>
+			    <div class="mini-dropdown">
+			        <a href="history.html">History</a>
+			        <a href="houses.html">Houses</a>
+			        <a href="wings.html">Wings</a>
+			        <a href="missionvision.html">Mission & Vision</a>
+			        <a href="values.html">PRIDE Values</a>
+			        <a href="waiatahaka.html">School Waiata & Haka</a>
+			    </div>
 			</div>
-			<div class="slides">
-				<img class="slideimg" src="images/hcday.jpg" style="width:50vw" alt="Photo of Students on HC Day in the Sports Centre">
+
+			<div class="menu-dropdown">
+			    <button class="menu-card maroon dropdown-toggle">
+			        <div class="icon-circle">
+			        	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+			        	stroke="currentColor" stroke-width="2"
+			        	stroke-linecap="round" stroke-linejoin="round">
+
+			        	<rect x="6" y="4" width="12" height="16" rx="2"/>
+			        	<path d="M9 4h6"/>
+			        	<path d="M9 10l2 2 4-4"/>
+			        	<path d="M9 16h6"/>
+
+			        	</svg>
+			        </div>
+			        <span>Rules & Policies</span>
+			    </button>
+			    <div class="mini-dropdown">
+			        <a href="bounds.html">Out of Bounds</a>
+					<a href="uniform.html">Uniform</a>
+					<a href="contraband.html">Contraband</a>
+					<a href="attendance.html">Attendance & Codes</a>
+					<a href="signingin.html">Signing In/Out</a>
+					<a href="phonepolicy.html">Phone/Earpod Policy</a>
+			    </div>
 			</div>
-			<div class="slides">
-			  	<img class="slideimg" src="images/hillview.jpg" style="width:50vw" alt="Photo of Quad">
+
+            <div class="menu-dropdown">
+			    <button class="menu-card gold dropdown-toggle">
+			        <div class="icon-circle">
+			        	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+			        	stroke="currentColor" stroke-width="2"
+			        	stroke-linecap="round" stroke-linejoin="round">
+
+			        	<path d="M8 7V6a4 4 0 018 0v1"/>
+			        	<rect x="6" y="7" width="12" height="13" rx="2"/>
+			        	<path d="M9 11h6"/>
+			        	<path d="M10 15h4"/>
+
+			        	</svg>
+			        </div>
+			        <span>Life and Resources</span>
+			    </button>
+			    <div class="mini-dropdown">
+			        <a href="lunch.html">Lunch Time Activities</a>
+	          		<a href="sportsclubs.html">Sports and Clubs</a>
+	          		<a href="bring.html">What to Bring</a>
+	  				<a href="wifi.html">WiFi</a>
+	          		<a href="googleclass.html">Google Classroom</a>
+	          		<a href="byod.html">BYOD</a>
+			    </div>
 			</div>
-			<div class="slides">
-				<img class="slideimg" src="images/schoolfront.jpg" style="width:50vw" alt="Photo of Front of School">
+
+            <div class="menu-dropdown">
+			    <button class="menu-card maroon dropdown-toggle">
+			        <div class="icon-circle">
+			        	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="42" height="42">
+			        	    <path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/>
+			        	    <path d="M9 4v14"/>
+			        	    <path d="M15 6v14"/>
+			        	</svg>
+			        </div>
+			        <span>Facilities</span>
+			    </button>
+			    <div class="mini-dropdown">
+			        <a href="library.html">Library</a>
+	          		<a href="bustimes.html">Bus Timetable</a>
+	          		<a href="foodcollect.html">Food Collection</a>
+	          		<a href="freefood.html">Breakfast Club & other Food</a>
+	          		<a href="sanitary.html">Free Sanitary Products</a>
+			    </div>
 			</div>
-			<div class="slides">
-			  	<img class="slideimg" src="images/flagposts.jpg" style="width:50vw" alt="Photo of house flag posts">
+
+            <div class="menu-dropdown">
+			    <button class="menu-card gold dropdown-toggle">
+			        <div class="icon-circle">
+			        	<svg xmlns="http://www.w3.org/2000/svg"
+			        	     viewBox="0 0 24 24"
+			        	     fill="none"
+			        	     stroke="currentColor"
+			        	     stroke-width="2"
+			        	     stroke-linecap="round"
+			        	     stroke-linejoin="round">
+
+			        	    <path d="M12 21
+			        	             L10.4 19.6
+			        	             C5.2 15 2 12.1 2 8.4
+			        	             C2 5.8 4 4 6.5 4
+			        	             C8.2 4 9.8 4.8 10.8 6.1
+			        	             L12 7.4
+			        	             L13.2 6.1
+			        	             C14.2 4.8 15.8 4 17.5 4
+			        	             C20 4 22 5.8 22 8.4
+			        	             C22 12.1 18.8 15 13.6 19.6
+			        	             Z"/>
+
+			        	</svg>
+			        </div>
+			        <span>Staff & Support</span>
+			    </button>
+			    <div class="mini-dropdown">
+			        <a href="schoolstaff.html">School Staff</a>
+	          		<a href="keystaff.html">Key Staff</a>
+	          		<a href="studentsupport.html">Student Support</a>
+			    </div>
 			</div>
-		</div>
 
-		<div style="text-align:center">
-			<span class="dot" onclick="currentSlide(1)"></span> 
-		  	<span class="dot" onclick="currentSlide(2)"></span> 
-		  	<span class="dot" onclick="currentSlide(3)"></span>
-		  	<span class="dot" onclick="currentSlide(4)"></span>
-		  	<span class="dot" onclick="currentSlide(5)"></span>
-		</div>
+            <div class="menu-dropdown">
+			    <button class="menu-card maroon dropdown-toggle">
+			        <div class="icon-circle">
+			        	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+			        	stroke="currentColor" stroke-width="2"
+			        	stroke-linecap="round" stroke-linejoin="round">
 
-			<script>
-				let slideIndex = 0;
-				showSlides();
+			        	<path d="M5 5h14v10H9l-4 4V5z"/>
+			        	<path d="M8 9h8"/>
+			        	<path d="M8 12h5"/>
 
-				function showSlides() {
-					let i;
-					let slides = document.getElementsByClassName("slides");
-					let dots = document.getElementsByClassName("dot");
-					for (i = 0; i < slides.length; i++) {
-				  		slides[i].style.display = "none";  
-					}
-					slideIndex++;
-					if (slideIndex > slides.length) {slideIndex = 1}    
-					for (i = 0; i < dots.length; i++) {
-				  		dots[i].className = dots[i].className.replace(" activeslide", "");
-					}
-					slides[slideIndex-1].style.display = "block";  
-					dots[slideIndex-1].className += " activeslide";
-					setTimeout(showSlides, 5000);
-				}
-
-
-			</script>
-
-		<div class="content">
-	    	<h1>Home</h1>
-	    	<p>Heretaunga College was founded in 1954 in response to the urban growth, which accompanied the post-war boom years. It was Upper Hutt's first state secondary school. It opened with 142 third formers (Year 9’s) and seven teachers; John Thurston was the principal. By 1963 the school had 800 students and 33 teachers. John Thurston, held the position until 1968. </p>
-	    	<p>Trevor Edmonds was his successor until 1974 when John Craig took up office. Brian Robb assumed the position in October 1988. Bruce Hart became Principal in 2003 and Fiona Craven was the first female Principal in 2019 when he retired. John Russell took over as Acting Principal when she left early 2024. Our current Principal, John Murdoch arrived in . There are two intermediate schools in Upper Hutt, with Maidstone Intermediate the older and larger, being the main contributor to Heretaunga College. </p>
-	    	<h2>School Crest and Motto</h2>
-	    	<p>The Phoenix - the story of this mythological creature, which was said to be born from the ashes of its parents, arose in Egypt. It provided an illustration for sermons and was popular with poets. Because of the stories associated with it, the Phoenix became a symbol of rebirth to new life, and was regarded as the king of the birds. When applied to the school it symbolises how the school is rejuvenated by each new intake - how it is continuously growing, and changing. </p>
-
-	    	<p>The philosophy of the College is reflected in its crest (the Phoenix) and motto (‘Kia Hiwa Ra’ - Be Alert, Be Awake); that growth and development will occur if students are awake and alert to the many opportunities and challenges the school offers. Academic emphasis is balanced by a concern for the individual’s personal and social development. </p>
-
-	    	<p>As part of the growth and learning process, high priority is given to preparation for employment, tertiary education and leisure; skills of self-management; respect for others; and enhancement of individual confidence and self-esteem. A positive partnership between college, home and community is developed and nurtured. </p>
-
-	    	<div class="home-img-grid">
-	    		<img class="otherimg" src="images/activeschool.jpg" alt="School Logo">
-				
-			  	<img class="otherimg" src="images/graceview.jpg" alt="School Logo"> 
-			  	
-			  	<img class="otherimg" src="images/wings2.jpg" alt="School Logo">
-	    	</div>
-	    	
-					
-			  	
-		</div>
-
-		<footer>
-			<div class="grid-container">
-				<div class="grid-item">
-					<h3>Address</h3> 
-					<address> Ward Street <br> Upper Hutt, 5018 <br> New Zealand</address>
-				</div>
-			  	<div class="grid-item">
-			  		<img class="footerimg" src="images/logo.png" alt="School Logo"> 
-			  	</div>
-			  	<div class="grid-item">
-			  		<h3>Contact Us</h3> 
-			  		<address>Phone: +64 4 939 9370 <br> Email: info@heretaunga.school.nz</address>
-			  	</div>  
+			        	</svg>
+			        </div>
+			        <span>Communication</span>
+			    </button>
+			    <div class="mini-dropdown">
+			        <a href="timetable.html">Timetable</a>
+	          		<a href="bells.html">Bells</a>
+	          		<a href="calendar.html">Calendar and Term Dates</a>
+	          		<a href="magazine.html">School Magazine</a>
+	          		<a href="socials.html">School Socials</a>
+			    </div>
 			</div>
-	    </footer>
-	</body>
 
+            
+        </section>
+        <script>
 
+        const cards = document.querySelectorAll(".menu-dropdown");
+
+        cards.forEach(card => {
+
+            const button = card.querySelector(".dropdown-toggle");
+
+            button.addEventListener("click", () => {
+
+                cards.forEach(c => {
+                    if(c !== card){
+                        c.classList.remove("active");
+                    }
+                });
+
+                card.classList.toggle("active");
+
+            });
+
+        });
+
+        document.addEventListener("click",(e)=>{
+
+            if(!e.target.closest(".menu-dropdown")){
+                cards.forEach(c=>c.classList.remove("active"));
+            }
+
+        });
+
+        </script>
+
+    </main>
+
+    <footer></footer>
+
+</body>
 </html>
