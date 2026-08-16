@@ -73,27 +73,34 @@ main{
 
 h1{
     font-family:"Cal Sans", sans-serif;
-    font-size:2.3rem;
+    font-size:3.5rem;
     color:#000;
     margin-bottom:.25rem;
 }
 
 h2{
-    font-size:2rem;
+    font-size:2.5rem;
     font-weight:400;
     color:var(--maroon);
     margin-bottom:2rem;
 }
 
 h3{
-    font-size:2rem;
+    font-size:2.5rem;
     font-weight:800;
 }
 
 h4{
-    font-size:2rem;
+    font-size:2.5rem;
     font-weight:400;
     padding-bottom: 5vw;
+}
+
+h5{
+    font-size:1.75rem;
+    font-weight:400;
+    margin-top:1rem;
+    margin-bottom: 1rem;
 }
 
 hr{
@@ -105,7 +112,7 @@ hr{
 }
 
 ul{
-    font-size:1.5rem;
+    font-size:2rem;
     line-height:1.5;
     color:#444;
     margin-bottom:40px;
@@ -113,7 +120,7 @@ ul{
 }
 
 ol{
-    font-size:1.5rem;
+    font-size:2rem;
     line-height:1.5;
     color:#444;
     margin-bottom:40px;
@@ -124,7 +131,7 @@ table {
   margin: 0 auto;
   border-collapse: collapse;
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .sltimg {
@@ -322,7 +329,7 @@ footer{
 }
 
 .dropbtn {
-  font-size: 24px;  
+  font-size: 2rem;  
   border: none;
   outline: none;
   color: #ffffff;
@@ -391,6 +398,10 @@ footer{
     align-items:center;
 }
 
+.menu-dropdownn span{
+    font-size: 1.25rem;
+}
+
 .dropdown-toggle{
     background:none;
     border:none;
@@ -417,7 +428,7 @@ footer{
     padding:.75rem 1rem;
     color:#555;
     text-decoration:none;
-    font-size:.95rem;
+    font-size:1.25rem;
     border-bottom:1px solid #eee;
 }
 
@@ -475,7 +486,7 @@ footer{
 
 .page-title{
     font-family:"Source Sans 3", sans-serif;
-    font-size:2.2rem;
+    font-size:3rem;
     font-weight:700;
     text-align:center;
     color:#111;
@@ -486,7 +497,7 @@ footer{
 }
 
 .page-content p{
-    font-size:1.5rem;
+    font-size:2rem;
     line-height:1.5;
     color:#444;
     margin-bottom:40px;
